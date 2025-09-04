@@ -1,0 +1,45 @@
+{
+  "name": "vscode-boxlang-developer-pack",
+  "displayName": "BoxLang Developer Pack",
+  "description": "A pack of essential BoxLang extensions for development, including language, theme, testing, and CommandBox support.",
+  "version": "1.0.0",
+  "publisher": "ortus-solutions",
+  "engines": {
+    "vscode": ">=1.66.2"
+  },
+  "categories": [
+    "Extension Packs"
+  ],
+  "keywords": [
+    "boxlang",
+    "cfml",
+    "coldfusion",
+    "testbox",
+    "commandbox",
+    "development",
+    "pack"
+  ],
+  "extensionPack": [
+    "ortus-solutions.vscode-boxlang",
+    "ortus-solutions.vscode-boxlang-theme",
+    "ortus-solutions.vscode-testbox",
+    "ortus-solutions.vscode-commandbox"
+  ],
+  "icon": "images/icon.png",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ortus-boxlang/vscode-boxlang-developer-pack.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ortus-boxlang/vscode-boxlang-developer-pack/issues"
+  },
+  "license": "Apache-2.0",
+  "scripts": {
+        "package": "vsce package",
+        "vsce:install": "npm install -g @vscode/vsce"
+    },
+  "devDependencies": {
+        "@types/node": "^18.0.0",
+        "@vscode/vsce": "^2.21.0"
+    }
+}

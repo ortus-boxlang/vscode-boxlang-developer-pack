@@ -2,7 +2,7 @@
   "name": "vscode-boxlang-developer-pack",
   "displayName": "BoxLang Developer Pack",
   "description": "A pack of essential BoxLang extensions for development, including language, theme, testing, and CommandBox support.",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "publisher": "ortus-solutions",
   "engines": {
     "vscode": ">=1.66.2"

@@ -42,10 +42,10 @@ This extension pack automatically installs the following extensions:
 
 ## 🚀 Getting Started
 
-1. **Install the pack**: Search for "BoxLang Developer Pack" in the VS Code Extensions marketplace or install via command:
+1. **Install the pack**: Search for "BoxLang Developer Pack" in the VS Code Extensions marketplace or install via command in the VSCode Terminal (Make sure that you have the `code` command line tool installed):
 
    ```bash
-   ext install ortus-solutions.vscode-boxlang-developer-pack
+   code --install-extension ortus-solutions.vscode-boxlang-developer-pack
    ```
 
 2. **Create a BoxLang project**: Use CommandBox to scaffold a new project:
